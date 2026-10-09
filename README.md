@@ -1,6 +1,10 @@
 # nuxt-chat
 
-> **Role in the zoo:** project `nuxt-chat` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with ox on server s4 at https://nuxt-chat.s4.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
+Deployed with [ox](https://deploywithox.com): deploy a repo to your own server with one command, no Docker. [Docs](https://deploywithox.com/docs) · [Guide for this stack](https://deploywithox.com/docs/guides/nuxt)
+
+**Live demo:** https://nuxt-chat.s4.zoo.sorv.dev
+
+> **Role in the zoo:** project `nuxt-chat` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with [ox](https://deploywithox.com) on server s4 at https://nuxt-chat.s4.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
 
 Nuxt 4 with server rendering on s4: a small live chat. History is a Redis list
 rendered on the server; new messages travel through Redis pub/sub and reach the
